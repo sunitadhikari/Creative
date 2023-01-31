@@ -1,10 +1,12 @@
 
-import './App.css';
+import "./App.css";
+import Nav from "./Nav"
 
 function App() {
   return (
     <>
-    <h1>hello</h1>
+    <Nav/>
+
     </>
   )
 }
