@@ -6,4 +6,25 @@
 }
 body{
   font-family:'Karma', serif;
+  background-color: rgb(242, 221, 193);
+  color: rgb(28, 27, 27);
+}
+.container{
+  max-width:90%;
+  margin:auto;
+}
+.flexx{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header{
+  height: 8vh;
+  line-height: 8vh;
+}
+.logo h1{
+  font-size: 45px;
+}
+.logo h1 span{
+  color:#1ebdf4;
 }
