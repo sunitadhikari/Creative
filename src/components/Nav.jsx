@@ -10,7 +10,9 @@ const Nav = () => {
             <h1><span>mm</span> uu  yu</h1>
           </div>
           <nav>
-            <button className='toggle' onClick={() => setSidebar(!sidebar)}></button>
+            <button className='toggle' onClick={() => setSidebar(!sidebar)}>
+              (sidebar?)
+            </button>
            <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/">About</a></li>
