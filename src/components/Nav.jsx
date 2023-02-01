@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Nav = () => {
+  const [sidebar, setSidebar]= useState(false)
   return (
     <>
       <header>
@@ -9,7 +10,7 @@ const Nav = () => {
             <h1><span>mm</span> uu  yu</h1>
           </div>
           <nav>
-            <button></button>
+            <button className='toggle' onClick={() => setSidebar}></button>
            <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/">About</a></li>
