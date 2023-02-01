@@ -11,7 +11,7 @@ const Nav = () => {
           </div>
           <nav>
             <button className='toggle' onClick={() => setSidebar(!sidebar)}>
-              (sidebar?)
+              {sidebar?<i className='fas fa-bars'></i>:<i className='fas fa-times'></i>}
             </button>
            <ul>
             <li><a href="/">Home</a></li>
