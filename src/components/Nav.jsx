@@ -7,7 +7,7 @@ const Nav = () => {
       <header>
         <div className="container flexx">
           <div className="logo">
-            <h1><span>hguhyjdj</span>uhzgh</h1>
+            <h1><span>hguhyjdj</span>uhgh</h1>
           </div>
           <nav>
             <button className='toggle' onClick={() => setSidebar(!sidebar)}>
